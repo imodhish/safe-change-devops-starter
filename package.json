@@ -1,0 +1,20 @@
+{
+  "name": "safe-change-devops-starter",
+  "version": "1.0.0",
+  "description": "A tiny Node.js API used to learn a safe DevOps change workflow.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "lint": "eslint .",
+    "build": "mkdir -p dist && npm pack --pack-destination dist"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0"
+  }
+}
